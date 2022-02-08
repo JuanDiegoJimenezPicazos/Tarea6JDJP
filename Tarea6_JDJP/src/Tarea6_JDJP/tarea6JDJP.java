@@ -1,5 +1,9 @@
+package Tarea6_JDJP;
+
 
 import java.util.Scanner;
+
+
 
 class SelectionSort {
 	public void sortArray(int[] array) {
@@ -96,7 +100,7 @@ public class tarea6JDJP {
      
     public static void ej4(int x){
         if(x<16){
-            System.out.println("Eres demasiado pequeño para conducir y beber");
+            System.out.println("Eres demasiado pequeÃ±o para conducir y beber");
         }
         else if(x<21){
             System.out.println("Puedes conducir pero no beber");
@@ -161,11 +165,11 @@ public class tarea6JDJP {
 
         for(int i = 0; i <= y; i++)
         {
-            if(i % x == 0) //Preguntamos si el residuo es 0 (es múltiplo de x)
+            if(i % x == 0) //Preguntamos si el residuo es 0 (es mÃºltiplo de x)
             {
-                contador++; //Si es múltiplo aumentamos el contador en 1
+                contador++; //Si es mÃºltiplo aumentamos el contador en 1
             }
-            //Si no es múltiplo no hacemos nada
+            //Si no es mÃºltiplo no hacemos nada
         }
 
         return contador;
